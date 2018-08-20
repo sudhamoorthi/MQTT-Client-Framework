@@ -19,7 +19,7 @@
 @synthesize delegate;
 @dynamic host;
 @dynamic port;
-@dynamic url;
+@synthesize url;
 
 - (instancetype)init {
     self = [super init];
